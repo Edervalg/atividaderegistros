@@ -1,63 +1,36 @@
-=== COMANDOS PARA O PROGRAMA DA PAPELARIA ESCOLAR ===
-
-1. COMPILAÇÃO DO PROGRAMA:
-   gcc papelaria.c -o papelaria
-
-2. EXECUÇÃO DO PROGRAMA:
-   ./papelaria
-
-3. COMANDOS DO MENU INTERATIVO:
-
-   [1] Cadastrar novo produto
-   - Insira os dados quando solicitado:
-     * Código (número)
-     * Descrição (texto)
-     * Valor unitário (decimal)
-     * Quantidade em estoque (número)
-
-   [2] Alterar valor unitário
-   - Digite o código do produto
-   - Insira o novo valor
-
-   [3] Consultar valor unitário
-   - Digite o código do produto
-   - O sistema mostrará o valor atual
-
-   [4] Consultar estoque
-   - Digite o código do produto
-   - O sistema mostrará a quantidade disponível
-
-   [5] Realizar venda
-   - Digite o código do produto
-   - Informe a quantidade desejada
-   - Confirme se deseja comprar quando estoque for insuficiente
-
-   [6] Atualizar estoque
-   - Digite o código do produto
-   - Informe a nova quantidade em estoque
-
-   [7] Listar todos os produtos
-   - Mostra código e descrição de todos os produtos cadastrados
-
-   [8] Listar produtos esgotados
-   - Mostra apenas os produtos com quantidade zero em estoque
-
-   [0] Sair do sistema
-
-4. OBSERVAÇÕES IMPORTANTES:
-   - O programa suporta até 40 produtos
-   - Os dados são armazenados apenas em memória (não persistem após fechar o programa)
-   - Para cadastros permanentes, seria necessário implementar sistema de arquivos
-   - Todos os valores monetários usam formato R$ 0.00
-   - O estoque sempre mostra valores inteiros
-
-5. EXEMPLO DE USO COMPLETO:
-   1. ./papelaria
-   2. Digite 1 para cadastrar um novo produto
-   3. Insira: 1001, "Caderno Universitário", 12.50, 50
-   4. Digite 5 para vender
-   5. Insira código 1001 e quantidade 10
-   6. O sistema mostrará: "Venda realizada! Total: R$ 125.00"
-   7. Digite 4 para consultar estoque
-   8. Insira código 1001
-   9. O sistema mostrará: "Quantidade em estoque: 40"
+1
+1001
+Caderno Universitário
+24.90
+50
+1
+1002
+Caneta Azul
+2.50
+100
+1
+1003
+Borracha Branca
+1.80
+30
+1
+1004
+Lápis HB
+1.20
+80
+1
+1005
+Régua 30cm
+3.40
+25
+3
+1001
+3
+1002
+3
+1003
+3
+1004
+3
+1005
+0
